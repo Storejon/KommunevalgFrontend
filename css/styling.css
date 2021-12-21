@@ -1,0 +1,36 @@
+body {
+   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+   font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,p, label {
+    color: white;
+}
+.navbar{
+    display: grid;
+    place-items: center;
+}
+.navbar li {
+    display: inline;
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+}
+
+.get-container {
+    display: grid;
+    place-items: center;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.homeh1 {
+    display: grid;
+    place-items: center;
+}

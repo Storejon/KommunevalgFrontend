@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New candidate</title>
+    <link rel="stylesheet" href="../../css/styling.css">
+</head>
+<body>
+<div class="navbar">
+    <ul>
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../party/new-party.html">Create Party</a></li>
+        <li><a href="../party/show-party.html">Show Party</a></li>
+        <li><a href="new-candidate.html">New Candidate</a></li>
+        <li><a href="show-candidate.html">Show Candidates</a></li>
+        <li><a href="../result.html">Election results</a></li>
+    </ul>
+</div>
+<div class="container">
+  <div class="row">
+    <label for="candidate-name">Name</label>
+    <input type="text" id="candidate-name" placeholder="Type the name of candidate...">
+  </div>
+    <div class="row">
+        <select type="text" id="parties-list">
+        <option>-- Select Party --</option>
+        </select>
+    </div>
+
+  <button class="submitbtn">Create Candidate</button>
+</div>
+<script src="../../js/fetch/fetch-party.js"></script>
+<script src="../../js/candidate/new-candidate.js"></script>
+
+
+</body>
+</html>
